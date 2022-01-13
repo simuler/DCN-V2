@@ -116,5 +116,7 @@ class DygraphModel():
         predict_2d = paddle.concat(x=[1 - pred, pred], axis=1)
         # print("---pred,predict_2d---",pred,predict_2d)
         metrics_list[0].update(preds=predict_2d.numpy(), labels=label.numpy())
+        loss = self.create_loss(pred, label)
+        print_dict = {'loss': loss} 
         # print("---metrics_list",metrics_list)
-        return metrics_list, None
+        return metrics_list, print_dict

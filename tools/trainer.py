@@ -328,13 +328,13 @@ if __name__ == '__main__':
     best_lr = -1
 
 
-    try_lrs = [0.0003, 0.00025, 0.0002]
+    try_lrs = [0.00025]
 
 
     for lr in try_lrs:
         best_auc, best_lr = f(best_auc, best_lr, lr, args)
         reset_graph()
-        if best_auc >= 0.8115:  # 0.81405 is the metric in the original paper   0.446  0.8115
-            break
+        # if best_auc >= 0.8115:  # 0.81405 is the metric in the original paper   0.446  0.8115
+        #     break
 
     print(f'Best AUC: {best_auc}, Best learning_rate: {best_lr}')

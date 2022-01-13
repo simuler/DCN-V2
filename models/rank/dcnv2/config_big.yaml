@@ -20,7 +20,7 @@ runner:
   use_auc: True
   train_batch_size: 512
   epochs: 1
-  print_interval: 100
+  print_interval: 1000
   #model_init_path: "output_model/0" # init model
   model_save_path: "big_model_deepCross1"
   test_data_dir: "../../../datasets/criteo/slot_test_data_full"
@@ -43,8 +43,8 @@ hyper_parameters:
 
   # user-defined <key, value> pairs
   sparse_inputs_slots: 27
-  sparse_feature_number: 1000001
-  sparse_feature_dim: 9
+  sparse_feature_number: 1100005
+  sparse_feature_dim: 48
   dense_input_dim: 13
   fc_sizes: [512, 512]
   distributed_embedding: 0
@@ -57,6 +57,6 @@ hyper_parameters:
   dnn_use_bn: False
   clip_by_norm: 10.0
   struct: stack
-  net_struct: mix
+  net_struct: v2
   # is_sparse: False
   # cat_feat_num: "{workspace}/data/sample_data/cat_feature_num.txt"

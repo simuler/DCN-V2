@@ -1,0 +1,112 @@
+[Errno 2] No such file or directory: './models/rank/dcnv2'
+/home/aistudio/PaddleRec/models/rank/dcnv2
+Trying Current_lr: 0.00025,
+2022-01-13 10:18:46,419 - INFO - **************common.configs**********
+2022-01-13 10:18:46,419 - INFO - use_gpu: True, use_xpu: False, use_visual: True, train_batch_size: 512, train_data_dir: ../../../datasets/criteo/slot_train_data_full, epochs: 1, print_interval: 1000, model_save_path: big_model_deepCross1, save_checkpoint_interval: 1
+2022-01-13 10:18:46,419 - INFO - **************common.configs**********
+W0113 10:18:46.420787  5108 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0113 10:18:46.425972  5108 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-01-13 10:18:49,692 - INFO - read data
+2022-01-13 10:18:49,693 - INFO - reader path:reader
+2022-01-13 10:18:49,694 - INFO - reader path:reader
+2022-01-13 10:18:49,947 - INFO - epoch: 0, batch_id: 0, auc:0.445639, loss:0.6942557,lr: 0.00025 sec, avg_reader_cost: 0.00021 sec, avg_batch_cost: 0.00025 sec, avg_samples: 0.51200, ips: 2089.67488 ins/s
+2022-01-13 10:20:05,967 - INFO - epoch: 0, batch_id: 1000, auc:0.754844, loss:0.5005971,lr: 0.00025 sec, avg_reader_cost: 0.05717 sec, avg_batch_cost: 0.07589 sec, avg_samples: 512.00000, ips: 6747.03948 ins/s
+2022-01-13 10:21:22,004 - INFO - epoch: 0, batch_id: 2000, auc:0.766002, loss:0.44567168,lr: 0.00025 sec, avg_reader_cost: 0.05767 sec, avg_batch_cost: 0.07591 sec, avg_samples: 512.00000, ips: 6745.22599 ins/s
+2022-01-13 10:22:38,068 - INFO - epoch: 0, batch_id: 3000, auc:0.770530, loss:0.48944137,lr: 0.00025 sec, avg_reader_cost: 0.05788 sec, avg_batch_cost: 0.07594 sec, avg_samples: 512.00000, ips: 6742.52862 ins/s
+2022-01-13 10:23:55,010 - INFO - epoch: 0, batch_id: 4000, auc:0.775055, loss:0.49451724,lr: 0.00025 sec, avg_reader_cost: 0.05676 sec, avg_batch_cost: 0.07680 sec, avg_samples: 512.00000, ips: 6666.26705 ins/s
+2022-01-13 10:25:11,198 - INFO - epoch: 0, batch_id: 5000, auc:0.777383, loss:0.4526288,lr: 0.00025 sec, avg_reader_cost: 0.05800 sec, avg_batch_cost: 0.07605 sec, avg_samples: 512.00000, ips: 6732.65180 ins/s
+2022-01-13 10:26:27,674 - INFO - epoch: 0, batch_id: 6000, auc:0.780294, loss:0.46094915,lr: 0.00025 sec, avg_reader_cost: 0.05823 sec, avg_batch_cost: 0.07634 sec, avg_samples: 512.00000, ips: 6706.82565 ins/s
+2022-01-13 10:27:47,597 - INFO - epoch: 0, batch_id: 7000, auc:0.781932, loss:0.44026655,lr: 0.00025 sec, avg_reader_cost: 0.05990 sec, avg_batch_cost: 0.07978 sec, avg_samples: 512.00000, ips: 6417.30775 ins/s
+2022-01-13 10:29:11,439 - INFO - epoch: 0, batch_id: 8000, auc:0.783251, loss:0.43751872,lr: 0.00025 sec, avg_reader_cost: 0.05887 sec, avg_batch_cost: 0.08371 sec, avg_samples: 512.00000, ips: 6116.21285 ins/s
+2022-01-13 10:30:32,915 - INFO - epoch: 0, batch_id: 9000, auc:0.784594, loss:0.47434914,lr: 0.00025 sec, avg_reader_cost: 0.05925 sec, avg_batch_cost: 0.08134 sec, avg_samples: 512.00000, ips: 6294.53097 ins/s
+2022-01-13 10:31:49,500 - INFO - epoch: 0, batch_id: 10000, auc:0.785327, loss:0.4730233,lr: 0.00025 sec, avg_reader_cost: 0.05819 sec, avg_batch_cost: 0.07646 sec, avg_samples: 512.00000, ips: 6696.73910 ins/s
+2022-01-13 10:31:50,878 - INFO - validation epoch: 0 done, auc: 0.775966,loss:[0.4502465], epoch time: 1.38 s
+2022-01-13 10:33:07,297 - INFO - epoch: 0, batch_id: 11000, auc:0.786278, loss:0.4558523,lr: 0.00025 sec, avg_reader_cost: 0.05698 sec, avg_batch_cost: 0.07628 sec, avg_samples: 512.00000, ips: 6711.83191 ins/s
+2022-01-13 10:34:24,779 - INFO - epoch: 0, batch_id: 12000, auc:0.786928, loss:0.45446348,lr: 0.00025 sec, avg_reader_cost: 0.05748 sec, avg_batch_cost: 0.07735 sec, avg_samples: 512.00000, ips: 6619.10412 ins/s
+2022-01-13 10:35:40,870 - INFO - epoch: 0, batch_id: 13000, auc:0.787701, loss:0.45614612,lr: 0.00025 sec, avg_reader_cost: 0.05786 sec, avg_batch_cost: 0.07595 sec, avg_samples: 512.00000, ips: 6740.98930 ins/s
+2022-01-13 10:36:57,765 - INFO - epoch: 0, batch_id: 14000, auc:0.788130, loss:0.5089375,lr: 0.00025 sec, avg_reader_cost: 0.05850 sec, avg_batch_cost: 0.07676 sec, avg_samples: 512.00000, ips: 6670.46940 ins/s
+2022-01-13 10:38:14,393 - INFO - epoch: 0, batch_id: 15000, auc:0.788697, loss:0.45210576,lr: 0.00025 sec, avg_reader_cost: 0.05835 sec, avg_batch_cost: 0.07649 sec, avg_samples: 512.00000, ips: 6693.48747 ins/s
+2022-01-13 10:39:31,297 - INFO - epoch: 0, batch_id: 16000, auc:0.789168, loss:0.4335363,lr: 0.00025 sec, avg_reader_cost: 0.05856 sec, avg_batch_cost: 0.07677 sec, avg_samples: 512.00000, ips: 6669.58038 ins/s
+2022-01-13 10:40:49,232 - INFO - epoch: 0, batch_id: 17000, auc:0.790043, loss:0.4350195,lr: 0.00025 sec, avg_reader_cost: 0.05853 sec, avg_batch_cost: 0.07779 sec, avg_samples: 512.00000, ips: 6581.44571 ins/s
+2022-01-13 10:42:06,888 - INFO - epoch: 0, batch_id: 18000, auc:0.790690, loss:0.44631737,lr: 0.00025 sec, avg_reader_cost: 0.05915 sec, avg_batch_cost: 0.07753 sec, avg_samples: 512.00000, ips: 6604.25639 ins/s
+2022-01-13 10:43:23,865 - INFO - epoch: 0, batch_id: 19000, auc:0.791103, loss:0.4373141,lr: 0.00025 sec, avg_reader_cost: 0.05774 sec, avg_batch_cost: 0.07684 sec, avg_samples: 512.00000, ips: 6663.11577 ins/s
+2022-01-13 10:44:39,485 - INFO - epoch: 0, batch_id: 20000, auc:0.791809, loss:0.42475712,lr: 0.00025 sec, avg_reader_cost: 0.05712 sec, avg_batch_cost: 0.07549 sec, avg_samples: 512.00000, ips: 6782.68110 ins/s
+2022-01-13 10:44:41,269 - INFO - validation epoch: 0 done, auc: 0.782813,loss:[0.44632864], epoch time: 1.78 s
+2022-01-13 10:45:58,377 - INFO - epoch: 0, batch_id: 21000, auc:0.792244, loss:0.43652406,lr: 0.00025 sec, avg_reader_cost: 0.05867 sec, avg_batch_cost: 0.07697 sec, avg_samples: 512.00000, ips: 6652.08948 ins/s
+2022-01-13 10:47:14,987 - INFO - epoch: 0, batch_id: 22000, auc:0.792538, loss:0.47588745,lr: 0.00025 sec, avg_reader_cost: 0.05830 sec, avg_batch_cost: 0.07648 sec, avg_samples: 512.00000, ips: 6694.41321 ins/s
+2022-01-13 10:48:31,475 - INFO - epoch: 0, batch_id: 23000, auc:0.793096, loss:0.38182443,lr: 0.00025 sec, avg_reader_cost: 0.05889 sec, avg_batch_cost: 0.07636 sec, avg_samples: 512.00000, ips: 6704.90805 ins/s
+2022-01-13 10:49:48,062 - INFO - epoch: 0, batch_id: 24000, auc:0.793536, loss:0.41622493,lr: 0.00025 sec, avg_reader_cost: 0.05837 sec, avg_batch_cost: 0.07646 sec, avg_samples: 512.00000, ips: 6696.65578 ins/s
+2022-01-13 10:51:04,886 - INFO - epoch: 0, batch_id: 25000, auc:0.793804, loss:0.42412573,lr: 0.00025 sec, avg_reader_cost: 0.05886 sec, avg_batch_cost: 0.07669 sec, avg_samples: 512.00000, ips: 6675.81708 ins/s
+2022-01-13 10:52:21,507 - INFO - epoch: 0, batch_id: 26000, auc:0.794096, loss:0.47138762,lr: 0.00025 sec, avg_reader_cost: 0.05796 sec, avg_batch_cost: 0.07649 sec, avg_samples: 512.00000, ips: 6693.81341 ins/s
+2022-01-13 10:53:38,047 - INFO - epoch: 0, batch_id: 27000, auc:0.794317, loss:0.44676673,lr: 0.00025 sec, avg_reader_cost: 0.05822 sec, avg_batch_cost: 0.07641 sec, avg_samples: 512.00000, ips: 6700.58354 ins/s
+2022-01-13 10:54:56,416 - INFO - epoch: 0, batch_id: 28000, auc:0.794557, loss:0.4473585,lr: 0.00025 sec, avg_reader_cost: 0.05929 sec, avg_batch_cost: 0.07824 sec, avg_samples: 512.00000, ips: 6544.34571 ins/s
+2022-01-13 10:56:13,437 - INFO - epoch: 0, batch_id: 29000, auc:0.794695, loss:0.4416526,lr: 0.00025 sec, avg_reader_cost: 0.05880 sec, avg_batch_cost: 0.07688 sec, avg_samples: 512.00000, ips: 6659.53370 ins/s
+2022-01-13 10:57:32,108 - INFO - epoch: 0, batch_id: 30000, auc:0.794977, loss:0.4237818,lr: 0.00025 sec, avg_reader_cost: 0.05755 sec, avg_batch_cost: 0.07853 sec, avg_samples: 512.00000, ips: 6520.12316 ins/s
+2022-01-13 10:57:33,484 - INFO - validation epoch: 0 done, auc: 0.783731,loss:[0.44525185], epoch time: 1.38 s
+2022-01-13 10:58:52,668 - INFO - epoch: 0, batch_id: 31000, auc:0.795441, loss:0.39094108,lr: 0.00025 sec, avg_reader_cost: 0.05820 sec, avg_batch_cost: 0.07904 sec, avg_samples: 512.00000, ips: 6477.36748 ins/s
+2022-01-13 11:00:08,727 - INFO - epoch: 0, batch_id: 32000, auc:0.795593, loss:0.45964274,lr: 0.00025 sec, avg_reader_cost: 0.05741 sec, avg_batch_cost: 0.07592 sec, avg_samples: 512.00000, ips: 6743.64473 ins/s
+2022-01-13 11:01:27,339 - INFO - epoch: 0, batch_id: 33000, auc:0.795895, loss:0.45424965,lr: 0.00025 sec, avg_reader_cost: 0.05921 sec, avg_batch_cost: 0.07847 sec, avg_samples: 512.00000, ips: 6524.46088 ins/s
+2022-01-13 11:02:42,919 - INFO - epoch: 0, batch_id: 34000, auc:0.796063, loss:0.4183346,lr: 0.00025 sec, avg_reader_cost: 0.05777 sec, avg_batch_cost: 0.07545 sec, avg_samples: 512.00000, ips: 6786.26608 ins/s
+2022-01-13 11:04:01,193 - INFO - epoch: 0, batch_id: 35000, auc:0.796256, loss:0.4631542,lr: 0.00025 sec, avg_reader_cost: 0.05898 sec, avg_batch_cost: 0.07814 sec, avg_samples: 512.00000, ips: 6552.28500 ins/s
+2022-01-13 11:05:20,862 - INFO - epoch: 0, batch_id: 36000, auc:0.796372, loss:0.40188506,lr: 0.00025 sec, avg_reader_cost: 0.05980 sec, avg_batch_cost: 0.07952 sec, avg_samples: 512.00000, ips: 6438.43873 ins/s
+2022-01-13 11:06:37,433 - INFO - epoch: 0, batch_id: 37000, auc:0.796575, loss:0.46681565,lr: 0.00025 sec, avg_reader_cost: 0.05802 sec, avg_batch_cost: 0.07643 sec, avg_samples: 512.00000, ips: 6699.17446 ins/s
+2022-01-13 11:07:55,086 - INFO - epoch: 0, batch_id: 38000, auc:0.796751, loss:0.45638472,lr: 0.00025 sec, avg_reader_cost: 0.05887 sec, avg_batch_cost: 0.07752 sec, avg_samples: 512.00000, ips: 6604.76341 ins/s
+2022-01-13 11:09:11,352 - INFO - epoch: 0, batch_id: 39000, auc:0.797074, loss:0.43922925,lr: 0.00025 sec, avg_reader_cost: 0.05779 sec, avg_batch_cost: 0.07613 sec, avg_samples: 512.00000, ips: 6725.59321 ins/s
+2022-01-13 11:10:27,629 - INFO - epoch: 0, batch_id: 40000, auc:0.797383, loss:0.43335915,lr: 0.00025 sec, avg_reader_cost: 0.05797 sec, avg_batch_cost: 0.07614 sec, avg_samples: 512.00000, ips: 6724.74541 ins/s
+2022-01-13 11:10:29,004 - INFO - validation epoch: 0 done, auc: 0.788291,loss:[0.43894133], epoch time: 1.37 s
+2022-01-13 11:11:46,001 - INFO - epoch: 0, batch_id: 41000, auc:0.797739, loss:0.44538474,lr: 0.00025 sec, avg_reader_cost: 0.05831 sec, avg_batch_cost: 0.07686 sec, avg_samples: 512.00000, ips: 6661.64368 ins/s
+2022-01-13 11:13:01,986 - INFO - epoch: 0, batch_id: 42000, auc:0.797975, loss:0.46368778,lr: 0.00025 sec, avg_reader_cost: 0.05781 sec, avg_batch_cost: 0.07585 sec, avg_samples: 512.00000, ips: 6749.85850 ins/s
+2022-01-13 11:14:19,631 - INFO - epoch: 0, batch_id: 43000, auc:0.798078, loss:0.44500384,lr: 0.00025 sec, avg_reader_cost: 0.05896 sec, avg_batch_cost: 0.07751 sec, avg_samples: 512.00000, ips: 6605.57855 ins/s
+2022-01-13 11:15:36,883 - INFO - epoch: 0, batch_id: 44000, auc:0.798211, loss:0.44833016,lr: 0.00025 sec, avg_reader_cost: 0.05739 sec, avg_batch_cost: 0.07711 sec, avg_samples: 512.00000, ips: 6640.17279 ins/s
+2022-01-13 11:17:00,648 - INFO - epoch: 0, batch_id: 45000, auc:0.798343, loss:0.45202896,lr: 0.00025 sec, avg_reader_cost: 0.06039 sec, avg_batch_cost: 0.08362 sec, avg_samples: 512.00000, ips: 6122.66589 ins/s
+2022-01-13 11:18:20,296 - INFO - epoch: 0, batch_id: 46000, auc:0.798525, loss:0.41245985,lr: 0.00025 sec, avg_reader_cost: 0.05958 sec, avg_batch_cost: 0.07951 sec, avg_samples: 512.00000, ips: 6439.41381 ins/s
+2022-01-13 11:19:37,718 - INFO - epoch: 0, batch_id: 47000, auc:0.798683, loss:0.44336993,lr: 0.00025 sec, avg_reader_cost: 0.05861 sec, avg_batch_cost: 0.07728 sec, avg_samples: 512.00000, ips: 6625.17674 ins/s
+2022-01-13 11:20:56,302 - INFO - epoch: 0, batch_id: 48000, auc:0.798805, loss:0.425375,lr: 0.00025 sec, avg_reader_cost: 0.05952 sec, avg_batch_cost: 0.07845 sec, avg_samples: 512.00000, ips: 6526.51227 ins/s
+2022-01-13 11:22:13,976 - INFO - epoch: 0, batch_id: 49000, auc:0.798900, loss:0.4240794,lr: 0.00025 sec, avg_reader_cost: 0.05819 sec, avg_batch_cost: 0.07754 sec, avg_samples: 512.00000, ips: 6603.21335 ins/s
+2022-01-13 11:23:31,166 - INFO - epoch: 0, batch_id: 50000, auc:0.798969, loss:0.4428122,lr: 0.00025 sec, avg_reader_cost: 0.05821 sec, avg_batch_cost: 0.07706 sec, avg_samples: 512.00000, ips: 6644.23862 ins/s
+2022-01-13 11:23:32,578 - INFO - validation epoch: 0 done, auc: 0.788975,loss:[0.44166884], epoch time: 1.41 s
+2022-01-13 11:24:51,446 - INFO - epoch: 0, batch_id: 51000, auc:0.799115, loss:0.48317492,lr: 0.00025 sec, avg_reader_cost: 0.06060 sec, avg_batch_cost: 0.07873 sec, avg_samples: 512.00000, ips: 6503.38584 ins/s
+2022-01-13 11:26:09,303 - INFO - epoch: 0, batch_id: 52000, auc:0.799160, loss:0.41133228,lr: 0.00025 sec, avg_reader_cost: 0.05896 sec, avg_batch_cost: 0.07772 sec, avg_samples: 512.00000, ips: 6588.07517 ins/s
+2022-01-13 11:27:25,926 - INFO - epoch: 0, batch_id: 53000, auc:0.799258, loss:0.44882774,lr: 0.00025 sec, avg_reader_cost: 0.05809 sec, avg_batch_cost: 0.07649 sec, avg_samples: 512.00000, ips: 6693.99669 ins/s
+2022-01-13 11:28:45,450 - INFO - epoch: 0, batch_id: 54000, auc:0.799369, loss:0.42922968,lr: 0.00025 sec, avg_reader_cost: 0.06089 sec, avg_batch_cost: 0.07938 sec, avg_samples: 512.00000, ips: 6449.73031 ins/s
+2022-01-13 11:30:05,821 - INFO - epoch: 0, batch_id: 55000, auc:0.799487, loss:0.43791258,lr: 0.00025 sec, avg_reader_cost: 0.06208 sec, avg_batch_cost: 0.08023 sec, avg_samples: 512.00000, ips: 6381.53363 ins/s
+2022-01-13 11:31:23,852 - INFO - epoch: 0, batch_id: 56000, auc:0.799637, loss:0.4440354,lr: 0.00025 sec, avg_reader_cost: 0.06001 sec, avg_batch_cost: 0.07789 sec, avg_samples: 512.00000, ips: 6573.10862 ins/s
+2022-01-13 11:32:40,146 - INFO - epoch: 0, batch_id: 57000, auc:0.799785, loss:0.42699265,lr: 0.00025 sec, avg_reader_cost: 0.05828 sec, avg_batch_cost: 0.07616 sec, avg_samples: 512.00000, ips: 6722.92750 ins/s
+2022-01-13 11:34:02,909 - INFO - epoch: 0, batch_id: 58000, auc:0.799890, loss:0.43753982,lr: 0.00025 sec, avg_reader_cost: 0.05993 sec, avg_batch_cost: 0.08263 sec, avg_samples: 512.00000, ips: 6196.59060 ins/s
+2022-01-13 11:35:26,768 - INFO - epoch: 0, batch_id: 59000, auc:0.800004, loss:0.44424435,lr: 0.00025 sec, avg_reader_cost: 0.06118 sec, avg_batch_cost: 0.08372 sec, avg_samples: 512.00000, ips: 6115.84886 ins/s
+2022-01-13 11:36:45,238 - INFO - epoch: 0, batch_id: 60000, auc:0.800117, loss:0.43032837,lr: 0.00025 sec, avg_reader_cost: 0.05981 sec, avg_batch_cost: 0.07833 sec, avg_samples: 512.00000, ips: 6536.24799 ins/s
+2022-01-13 11:36:46,585 - INFO - validation epoch: 0 done, auc: 0.791994,loss:[0.42940348], epoch time: 1.35 s
+2022-01-13 11:38:03,502 - INFO - epoch: 0, batch_id: 61000, auc:0.800199, loss:0.41376567,lr: 0.00025 sec, avg_reader_cost: 0.05781 sec, avg_batch_cost: 0.07678 sec, avg_samples: 512.00000, ips: 6668.05078 ins/s
+2022-01-13 11:39:20,580 - INFO - epoch: 0, batch_id: 62000, auc:0.800305, loss:0.50629914,lr: 0.00025 sec, avg_reader_cost: 0.05860 sec, avg_batch_cost: 0.07694 sec, avg_samples: 512.00000, ips: 6654.59151 ins/s
+2022-01-13 11:40:40,171 - INFO - epoch: 0, batch_id: 63000, auc:0.800457, loss:0.43262774,lr: 0.00025 sec, avg_reader_cost: 0.05898 sec, avg_batch_cost: 0.07946 sec, avg_samples: 512.00000, ips: 6443.82789 ins/s
+2022-01-13 11:41:58,021 - INFO - epoch: 0, batch_id: 64000, auc:0.800577, loss:0.43588713,lr: 0.00025 sec, avg_reader_cost: 0.05893 sec, avg_batch_cost: 0.07771 sec, avg_samples: 512.00000, ips: 6588.22247 ins/s
+2022-01-13 11:43:13,825 - INFO - epoch: 0, batch_id: 65000, auc:0.800726, loss:0.469891,lr: 0.00025 sec, avg_reader_cost: 0.05773 sec, avg_batch_cost: 0.07567 sec, avg_samples: 512.00000, ips: 6766.05642 ins/s
+2022-01-13 11:44:29,843 - INFO - epoch: 0, batch_id: 66000, auc:0.800822, loss:0.42266738,lr: 0.00025 sec, avg_reader_cost: 0.05771 sec, avg_batch_cost: 0.07588 sec, avg_samples: 512.00000, ips: 6747.13880 ins/s
+2022-01-13 11:45:48,356 - INFO - epoch: 0, batch_id: 67000, auc:0.800934, loss:0.48455787,lr: 0.00025 sec, avg_reader_cost: 0.05959 sec, avg_batch_cost: 0.07837 sec, avg_samples: 512.00000, ips: 6533.29856 ins/s
+2022-01-13 11:47:04,349 - INFO - epoch: 0, batch_id: 68000, auc:0.801031, loss:0.40864155,lr: 0.00025 sec, avg_reader_cost: 0.05745 sec, avg_batch_cost: 0.07586 sec, avg_samples: 512.00000, ips: 6749.56438 ins/s
+2022-01-13 11:48:20,215 - INFO - epoch: 0, batch_id: 69000, auc:0.801123, loss:0.4577145,lr: 0.00025 sec, avg_reader_cost: 0.05754 sec, avg_batch_cost: 0.07573 sec, avg_samples: 512.00000, ips: 6760.79639 ins/s
+2022-01-13 11:49:36,524 - INFO - epoch: 0, batch_id: 70000, auc:0.801181, loss:0.49127978,lr: 0.00025 sec, avg_reader_cost: 0.05728 sec, avg_batch_cost: 0.07617 sec, avg_samples: 512.00000, ips: 6721.83604 ins/s
+2022-01-13 11:49:37,815 - INFO - validation epoch: 0 done, auc: 0.792860,loss:[0.431126], epoch time: 1.29 s
+2022-01-13 11:50:55,518 - INFO - epoch: 0, batch_id: 71000, auc:0.801309, loss:0.50725234,lr: 0.00025 sec, avg_reader_cost: 0.05898 sec, avg_batch_cost: 0.07756 sec, avg_samples: 512.00000, ips: 6601.41290 ins/s
+2022-01-13 11:52:13,432 - INFO - epoch: 0, batch_id: 72000, auc:0.801381, loss:0.43754375,lr: 0.00025 sec, avg_reader_cost: 0.05935 sec, avg_batch_cost: 0.07778 sec, avg_samples: 512.00000, ips: 6582.98404 ins/s
+2022-01-13 11:53:30,390 - INFO - epoch: 0, batch_id: 73000, auc:0.801444, loss:0.39383727,lr: 0.00025 sec, avg_reader_cost: 0.05864 sec, avg_batch_cost: 0.07682 sec, avg_samples: 512.00000, ips: 6664.54579 ins/s
+2022-01-13 11:54:47,864 - INFO - epoch: 0, batch_id: 74000, auc:0.801521, loss:0.4325964,lr: 0.00025 sec, avg_reader_cost: 0.05846 sec, avg_batch_cost: 0.07734 sec, avg_samples: 512.00000, ips: 6620.45694 ins/s
+2022-01-13 11:56:05,044 - INFO - epoch: 0, batch_id: 75000, auc:0.801632, loss:0.44069916,lr: 0.00025 sec, avg_reader_cost: 0.05848 sec, avg_batch_cost: 0.07704 sec, avg_samples: 512.00000, ips: 6645.70368 ins/s
+2022-01-13 11:57:23,403 - INFO - epoch: 0, batch_id: 76000, auc:0.801721, loss:0.47285113,lr: 0.00025 sec, avg_reader_cost: 0.05963 sec, avg_batch_cost: 0.07822 sec, avg_samples: 512.00000, ips: 6545.34222 ins/s
+2022-01-13 11:58:40,867 - INFO - epoch: 0, batch_id: 77000, auc:0.801825, loss:0.43253455,lr: 0.00025 sec, avg_reader_cost: 0.05895 sec, avg_batch_cost: 0.07733 sec, avg_samples: 512.00000, ips: 6621.21351 ins/s
+2022-01-13 11:59:57,509 - INFO - epoch: 0, batch_id: 78000, auc:0.801892, loss:0.479795,lr: 0.00025 sec, avg_reader_cost: 0.05740 sec, avg_batch_cost: 0.07651 sec, avg_samples: 512.00000, ips: 6692.23835 ins/s
+2022-01-13 12:01:14,740 - INFO - epoch: 0, batch_id: 79000, auc:0.802015, loss:0.4523034,lr: 0.00025 sec, avg_reader_cost: 0.05896 sec, avg_batch_cost: 0.07710 sec, avg_samples: 512.00000, ips: 6640.83337 ins/s
+2022-01-13 12:02:31,792 - INFO - epoch: 0, batch_id: 80000, auc:0.802132, loss:0.43616924,lr: 0.00025 sec, avg_reader_cost: 0.05780 sec, avg_batch_cost: 0.07691 sec, avg_samples: 512.00000, ips: 6656.85578 ins/s
+2022-01-13 12:02:33,707 - INFO - validation epoch: 0 done, auc: 0.792273,loss:[0.43329507], epoch time: 1.92 s
+2022-01-13 12:03:50,960 - INFO - epoch: 0, batch_id: 81000, auc:0.802210, loss:0.44904435,lr: 0.00025 sec, avg_reader_cost: 0.05800 sec, avg_batch_cost: 0.07712 sec, avg_samples: 512.00000, ips: 6639.39113 ins/s
+2022-01-13 12:05:09,642 - INFO - epoch: 0, batch_id: 82000, auc:0.802294, loss:0.4498328,lr: 0.00025 sec, avg_reader_cost: 0.05999 sec, avg_batch_cost: 0.07854 sec, avg_samples: 512.00000, ips: 6518.63768 ins/s
+2022-01-13 12:06:27,284 - INFO - epoch: 0, batch_id: 83000, auc:0.802420, loss:0.4214679,lr: 0.00025 sec, avg_reader_cost: 0.05781 sec, avg_batch_cost: 0.07749 sec, avg_samples: 512.00000, ips: 6607.11237 ins/s
+2022-01-13 12:07:43,850 - INFO - epoch: 0, batch_id: 84000, auc:0.802514, loss:0.4364158,lr: 0.00025 sec, avg_reader_cost: 0.05808 sec, avg_batch_cost: 0.07643 sec, avg_samples: 512.00000, ips: 6699.02795 ins/s
+2022-01-13 12:09:00,212 - INFO - epoch: 0, batch_id: 85000, auc:0.802598, loss:0.44849345,lr: 0.00025 sec, avg_reader_cost: 0.05783 sec, avg_batch_cost: 0.07622 sec, avg_samples: 512.00000, ips: 6717.15115 ins/s
+2022-01-13 12:10:11,296 - INFO - epoch: 0 done, auc: 0.802655,loss:0.448454, epoch time: 6681.60 s
+2022-01-13 12:10:14,315 - INFO - Already save model in big_model_deepCross1/0
+11
+2022-01-13 12:10:20,242 - INFO - Already save model in big_model_deepCross1/0
+2022-01-13 12:10:21,120 - INFO - validation epoch: 0 done, auc: 0.795143,loss:[0.42506632], epoch time: 0.87 s
+Trying Current_lr: 0.00025, AUC: 0.7951430382291516
+Best AUC: 0.8, Best learning_rate: -1

@@ -1,0 +1,16 @@
+[Errno 2] No such file or directory: 'PaddleRec/models/rank/dcnv2'
+/home/aistudio/PaddleRec/models/rank/dcnv2
+2022-01-13 12:41:50,919 - INFO - **************common.configs**********
+2022-01-13 12:41:50,919 - INFO - use_gpu: True, use_xpu: False, use_visual: True, infer_batch_size: 512, test_data_dir: ../../../datasets/criteo/slot_test_data_full, start_epoch: 0, end_epoch: 1, print_interval: 1000, model_load_path: big_model_deepCross1
+2022-01-13 12:41:50,919 - INFO - **************common.configs**********
+W0113 12:41:50.920804 14906 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0113 12:41:50.926046 14906 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-01-13 12:41:54,148 - INFO - read data
+2022-01-13 12:41:54,148 - INFO - reader path:reader
+2022-01-13 12:41:54,150 - INFO - load model epoch 0
+2022-01-13 12:41:54,150 - INFO - start load model from big_model_deepCross1/0
+2022-01-13 12:41:55,252 - INFO - epoch: 0, batch_id: 0, auc: 0.761846,loss:0.48172563, avg_reader_cost: 0.00021 sec, avg_batch_cost: 0.00022 sec, avg_samples: 512.00000, ips: 464526.89 ins/s
+2022-01-13 12:43:09,007 - INFO - epoch: 0, batch_id: 1000, auc: 0.804103,loss:0.43913293, avg_reader_cost: 0.06182 sec, avg_batch_cost: 0.07374 sec, avg_samples: 512.00000, ips: 6941.92 ins/s
+2022-01-13 12:44:23,299 - INFO - epoch: 0, batch_id: 2000, auc: 0.804035,loss:0.45353204, avg_reader_cost: 0.06254 sec, avg_batch_cost: 0.07428 sec, avg_samples: 512.00000, ips: 6891.80 ins/s
+2022-01-13 12:45:37,958 - INFO - epoch: 0, batch_id: 3000, auc: 0.804143,loss:0.44889718, avg_reader_cost: 0.06330 sec, avg_batch_cost: 0.07465 sec, avg_samples: 512.00000, ips: 6857.86 ins/s
+2022-01-13 12:46:21,854 - INFO - epoch: 0 done, auc: 0.804114,loss:0.4325502, epoch time: 267.70 s
